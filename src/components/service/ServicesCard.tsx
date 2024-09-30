@@ -25,7 +25,7 @@ const ServicesCard: NextPage = ({ }) => {
             {/* Card 1 */}
             <div className="rounded-2xl p-2 shadow-xl drop-shadow bg-white h-[257px] min-w-[250px] max-w-[350px]">
                 <div className="bg-[#E8EDFA] p-14 rounded-2xl flex justify-between flex-col">
-                    {/* <Image src={GalleryImageConstants.image3} width={150} height={100} alt={"Powder Coating Pink Frame Mio"} className="rounded-t-2xl object-cover text-center"></Image> */}
+                    <Image src={GalleryImageConstants.image3} width={150} height={100} alt={"Powder Coating Pink Frame Mio"} className="rounded-t-2xl object-cover text-center"></Image>
                 </div>
                 <div className="px-4 py-2">
                     {/* <h3 className="text-lg font-bold text-gray-900">{title}</h3> */}

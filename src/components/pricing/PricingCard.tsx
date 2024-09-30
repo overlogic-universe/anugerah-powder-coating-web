@@ -26,7 +26,7 @@ const PricingCard: NextPage<Props> = ({ title, services }) => {
           </div>
         </div>
         <button className="bottom-0 rounded-xl flex items-center justify-center px-6 py-3 text-white bg-blue-500 hover:bg-blue-600">
-          <p className="text-xs lg:text-md">Hubungi Sekarang</p>
+          <p className="text-xs lg:text-base">Hubungi Sekarang</p>
         </button>
       </div>
     </div>

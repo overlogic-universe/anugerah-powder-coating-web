@@ -5,4 +5,7 @@ export const GalleryImageConstants = {
     image2: "/images/gallery/image-2.avif",
     image3: "/images/gallery/image-3.avif",
     image4: "/images/gallery/image-4.avif",
+    image5: "/images/gallery/image-2-removebg.png",
+    image6: "/images/gallery/image-1-removebg.png",
+    image7: "/images/gallery/image-4-removebg.png",
 }

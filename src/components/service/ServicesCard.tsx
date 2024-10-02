@@ -9,8 +9,8 @@ interface Props {
 
 const ServicesCard: NextPage<Props> = ({ image, title, description }) => {
     return (
-        <div className="rounded-2xl p-2 shadow-xl drop-shadow bg-white h-[257px] min-w-[250px] max-w-[350px]">
-            <div className="bg-[#E8EDFA] p-14 rounded-2xl flex justify-between flex-col">
+        <div className="rounded-2xl p-2 shadow-xl drop-shadow bg-white min-w-[250px] max-w-[350px]">
+            <div className="bg-[#E8EDFA] p-4 items-center rounded-2xl flex justify-between flex-col">
                 <Image
                     src={image}
                     width={150}

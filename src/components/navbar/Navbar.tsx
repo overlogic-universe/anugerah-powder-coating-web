@@ -24,7 +24,7 @@ const Navbar: NextPage = () => {
             src="/images/logo/anugerah-logo.png"
             alt="Anugerah Coating Blora"
             className="object-contain w-32"
-            height={1080}
+            height={420}
             width={1080}
           />
         </a>
@@ -115,6 +115,7 @@ const Navbar: NextPage = () => {
             isOpen ? "translate-x-0" : "-translate-x-full"
           }`}
         >
+          
           <ul className="flex flex-col font-medium p-4">
             {[
               "home",
@@ -130,7 +131,10 @@ const Navbar: NextPage = () => {
                   className={`block py-2 px-3 text-gray-700 rounded hover:bg-gray-100 ${
                     selectedTab === tab ? "text-blue-500" : ""
                   }`}
-                  onClick={() => setSelectedTab(tab)}
+                  onClick={() => {
+                    setSelectedTab(tab)
+                    setIsOpen(false)
+                  }}
                 >
                   {tab.charAt(0).toUpperCase() + tab.slice(1)}
                 </a>

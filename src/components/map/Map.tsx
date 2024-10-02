@@ -39,7 +39,7 @@ const MapComponent = () => {
       className="rounded-3xl"
       center={[-6.964771050766204, 111.43800955050327]}
       zoom={13}
-      style={{ height: '200px', width: '90%' }}
+      style={{ height: '200px', width: '90%', zIndex: 10 }}
     >
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'

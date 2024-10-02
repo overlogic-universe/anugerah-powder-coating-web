@@ -10,8 +10,7 @@ const Service: NextPage<Props> = ({ }) => {
       <p className="md:text-xl lg:text-2xl xl:text-5xl font-bold text-center">
         Apa yang kami tawarkan?
       </p>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-6 lg:gap-8 mt-5 xl:mt-10 items-center justify-center">
-        
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-6 sm:gap-4 lg:gap-8 mt-5 xl:mt-10">
         {serviceList.map((service, index) => (
           <ServicesCard
             key={index}

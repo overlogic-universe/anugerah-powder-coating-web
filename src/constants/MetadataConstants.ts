@@ -19,7 +19,7 @@ const metadataConstant: Metadata = {
     icon: "/images/logo/anugerah-logo.png",
     apple: "/images/logo/anugerah-logo.png",
   },
-  metadataBase: new URL("https://anugerahpowdercoatingblora.com/"),
+  metadataBase: new URL("http://anugerah-powder-coating-blora.vercel.app/"),
 };
 
 export { metadataConstant };

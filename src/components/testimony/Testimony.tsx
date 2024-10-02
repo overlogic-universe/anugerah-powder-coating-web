@@ -9,8 +9,8 @@ import CustomTitle from '../common/CustomTitle';
 
 const Testimony: NextPage = ({}) => {
   return (
-    <div id='testimoni'>
-      <CustomTitle title={"Apakah kata Konsumen?"} />
+    <div id='testimoni' className="md:h-screen pt-20">
+      <CustomTitle title={"Apakah kata Konsumen?"}/>
       <Swiper 
         className='mt-5'
         spaceBetween={50}
@@ -33,8 +33,8 @@ const Testimony: NextPage = ({}) => {
             <div className="flex items-center justify-center space-x-3">
               <Image src="/images/testimony/image-2.png" alt='Overlogic ID' className='w-10 h-10 mb-2' width={40} height={40}/>
               <div className='flex flex-col'>
-                <span className='font-bold'>Ambatuqam</span>
-                <span>Pembeli</span>
+                <span className='font-bold'>Sholeh</span>
+                <span>Powder Coating</span>
               </div>
                 
             </div>
@@ -49,8 +49,8 @@ const Testimony: NextPage = ({}) => {
             <div className="flex items-center justify-center space-x-3">
               <Image src="/images/testimony/image-2.png" className=' mb-2' alt='Overlogic' width={40} height={40}/>
               <div className='flex flex-col'>
-                <span className='font-bold'>Ambatuqam</span>
-                <span>Pembeli</span>
+                <span className='font-bold'>Ari</span>
+                <span>Powder Coating</span>
               </div>
             </div>
           </div>
@@ -64,8 +64,8 @@ const Testimony: NextPage = ({}) => {
             <div className="flex items-center justify-center space-x-3">
               <Image src="/images/testimony/image-2.png" alt='Overlogic Team' className='mb-2' width={40} height={40}/>
               <div className='flex flex-col'>
-                <span className='font-bold'>Ambatuqam</span>
-                <span>Pembeli</span>
+                <span className='font-bold'>Gunawan</span>
+                <span>Vapor Blasting</span>
               </div>
             </div>
           </div>

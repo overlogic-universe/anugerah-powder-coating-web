@@ -4,7 +4,7 @@ import CustomTitle from "../common/CustomTitle";
 
 const Pricing: NextPage = ({}) => {
   return (
-    <div id="pricelist" className="w-full flex flex-col p-5 items-center justify-center md:h-screen">
+    <div id="pricelist" className="w-full flex flex-col p-5 items-center justify-center min-h-screen">
       <CustomTitle title={"Layanan Powder Coating"}/>
       {/* <div className="flex items-center xl:w-[1240px] justify-center flex-col md:flex-row gap-5 mt-5"> */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 mt-5 xl:mt-10 items-center justify-center">

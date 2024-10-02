@@ -23,19 +23,19 @@ const Navbar: NextPage = () => {
           <Image
             src="/images/logo/anugerah-logo.png"
             alt="Anugerah Coating Blora"
-            className="object-contain"
-            height={80}
-            width={120}
+            className="object-contain w-32"
+            height={1080}
+            width={1080}
           />
         </a>
 
         {/* Mobile Toggle Icon */}
         <div
-          className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse cursor-pointer items-center"
+          className="flex lg:order-2 space-x-3 lg:space-x-0 rtl:space-x-reverse cursor-pointer items-center"
           onClick={toggleSidebar}
         >
           {/* Icon Toggle Menu (Mobile Only) */}
-          <div className="flex md:hidden">
+          <div className="flex lg:hidden">
             <svg
               className="w-5 h-5 text-gray-500"
               xmlns="http://www.w3.org/2000/svg"
@@ -52,7 +52,7 @@ const Navbar: NextPage = () => {
             </svg>
           </div>
           {/* Tombol Kontak Kami */}
-          <div className="hidden md:flex">
+          <div className="hidden lg:flex">
             <Link
               className="text-white bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-500 dark:hover:bg-blue-600 dark:focus:ring-blue-600"
               href={"/contact"}
@@ -65,8 +65,8 @@ const Navbar: NextPage = () => {
         </div>
 
         {/* Menu Item Desktop */}
-        <div className="md:order-1 hidden md:flex md:w-auto">
-          <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+        <div className="lg:order-1 hidden lg:flex lg:w-auto">
+          <ul className="flex flex-col font-medium p-4 lg:p-0 mt-4 border rounded-lg lg:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
             {[
               "home",
               "perbandingan",
@@ -100,7 +100,7 @@ const Navbar: NextPage = () => {
       </div>
 
       {/* Mobile Sidebar */}
-      <div className="md:hidden">
+      <div className="lg:hidden">
         {/* Overlay ketika sidebar terbuka */}
         {isOpen && (
           <div
@@ -137,7 +137,7 @@ const Navbar: NextPage = () => {
               </li>
             ))}
           </ul>
-          <div className="md:hidden px-5">
+          <div className="lg:hidden px-5">
             <Link
               className="text-white bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-500 dark:hover:bg-blue-600 dark:focus:ring-blue-600"
               href={"/contact"}

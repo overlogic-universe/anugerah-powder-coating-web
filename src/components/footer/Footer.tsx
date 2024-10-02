@@ -9,8 +9,8 @@ const Footer:NextPage = ({}) => {
       <div className='py-8 md:px-20 xl:px-0 xl:w-[1280px]'>
         <div className='container mx-auto flex flex-col md:flex-row justify-between items-start md:px-0'>
           <div className='md:w-1/2 mb-8 md:mb-0'>
-            <Image src="/images/logo/anugerah-logo.png " alt="Logo" className='object-contain' height={80} width={150}/>
-            <p className='mt-1 text-sm w-96 font-semibold italic'>Layanan coating terbaik dengan kualitas tinggi untuk melindungi dan mempercantik berbagai produk logam anda. Hubungi kami untuk informasi lebih lanjut dan penawaran spesial</p>
+            <Image src="/images/logo/anugerah-logo.png" alt="Logo" className='object-contain w-32' height={800} width={800}/>
+            <p className='mt-1 text-sm sm:w-96 font-semibold italic'>Layanan coating terbaik dengan kualitas tinggi untuk melindungi dan mempercantik berbagai produk logam anda. Hubungi kami untuk informasi lebih lanjut dan penawaran spesial</p>
             <div className='flex space-x-4 mt-4'>
               <a href="https://www.instagram.com/anugerahpowdercoatingblora/" target='_blank'>
                 <Image src="/images/footer/image-1.png" alt="Instagram" className='h-8 w-8' height={32} width={32} />
@@ -23,7 +23,7 @@ const Footer:NextPage = ({}) => {
           <div className='w-full md:w-1/2'>
             <h3 className='text-lg font-semibold mb-3'>Temukan kami</h3>
             <MapComponent></MapComponent>
-            <p className='text-base mt-2'>Dekat Jl. KNPI 17, Kec. Blora, Kabupaten Blora, Jawa Tengah 58219, Kabupaten Blora, Jawa Tengah 58216</p>
+            <p className='text-base mt-2'>Dekat Jl. KNPI 17, Kec. Blora, Kabupaten Blora, Jawa Tengah 58219, Kabupaten Blora, Jawa Tengah 58216 <a href='https://maps.app.goo.gl/6TnydRCDvsreXKhP8' target='_blank' className='text-blue-500 cursor-pointer underline'>Lihat lebih detail</a></p>
           </div>
         </div>
       </div>

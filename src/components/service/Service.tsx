@@ -5,7 +5,7 @@ import CustomTitle from '../common/CustomTitle';
 
 const Service: NextPage = ({ }) => {
   return (
-    <div id='layanan' className="w-full flex h-full p-5 items-center flex-col">
+    <div id='layanan' className="w-full flex flex-col p-5 items-center justify-center md:h-screen">
       <CustomTitle title={"Apa yang kami tawarkan?"} />
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 mt-5 xl:mt-10 items-center justify-center">
         {serviceList.map((service, index) => (

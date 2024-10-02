@@ -199,19 +199,21 @@ export const Compare = ({
         </motion.div>
       </AnimatePresence>
       <div className="overflow-hidden w-full h-full relative z-20 pointer-events-none">
-      <div className="absolute justify-between flex w-full items-center h-full px-5 md:px-20">
-        <div className="backdrop-blur-lg z-30 rounded-xl overflow-hidden p-2 border-1 border-white border-opacity-45">
-          <p className="text-2xl text-white ">Sebelum</p>
+      <div className="absolute justify-start flex w-full items-center h-full px-5 md:px-20">
+        <div style={{display: sliderXPercent < 30 ? "none" : "block"}} className="backdrop-blur-lg z-[20] rounded-xl overflow-hidden p-2 border-1 border-white border-opacity-45">
+          <p className="text-2xl z-20 text-blue-500">Sebelum</p>
         </div>
-        <div className="backdrop-blur-lg z-10 rounded-xl overflow-hidden p-2 border-1 border-white border-opacity-45">
-          <p className="text-2xl text-white ">Sesudah</p>
+      </div>
+      <div className="absolute justify-end flex w-full items-center h-full px-5 md:px-20">
+      <div style={{display: sliderXPercent > 70 ? "none" : "block"}} className="backdrop-blur-lg z-[20] rounded-xl overflow-hidden p-2 border-1 border-white border-opacity-45">
+          <p className="text-2xl text-blue-500">Sesudah</p>
         </div>
       </div>
         <AnimatePresence initial={false}>
           {firstImage ? (
             <motion.div
               className={cn(
-                "absolute inset-0 z-20 rounded-2xl flex-shrink-0 w-full h-full select-none overflow-hidden",
+                "absolute inset-0 z-[19] rounded-2xl flex-shrink-0 w-full h-full select-none overflow-hidden",
                 firstImageClassName
               )}
               style={{
@@ -225,7 +227,7 @@ export const Compare = ({
                 alt="first image"
                 src={firstImage}
                 className={cn(
-                  "absolute inset-0 z-20 rounded-2xl flex-shrink-0 w-full h-full select-none",
+                  "absolute inset-0 z-30 rounded-2xl flex-shrink-0 w-full h-full select-none",
                   firstImageClassName
                 )}
                 draggable={false}
@@ -237,15 +239,15 @@ export const Compare = ({
       <AnimatePresence initial={false}>
         {secondImage ? (
           <motion.img
-            className={cn(
-              "absolute top-0 left-0 z-[19]  rounded-2xl w-full h-full select-none",
+          className={cn(
+              "absolute top-0 left-0 z-[19] rounded-2xl w-full h-full select-none",
               secondImageClassname
             )}
             alt="second image"
             src={secondImage}
             draggable={false}
           />
-        ) : null}
+          ) : null}
       </AnimatePresence>
     </div>
   );

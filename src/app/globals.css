@@ -96,3 +96,8 @@
   color: white;
   background: #0077ff;
 }
+
+body {
+  margin: 0px;
+  overflow-x: hidden;
+}

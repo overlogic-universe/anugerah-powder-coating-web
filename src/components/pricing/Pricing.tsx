@@ -1,13 +1,13 @@
 import { NextPage } from "next";
 import PricingCard from "./PricingCard";
+import CustomTitle from "../common/CustomTitle";
 
-interface Props {}
-
-const Pricing: NextPage<Props> = ({}) => {
+const Pricing: NextPage = ({}) => {
   return (
-    <div className="w-full flex-1 p-5 md:px-5 lg:px-20 xl:px-64 2xl:px-72 items-center justify-center md:h-screen">
-      <p className="md:text-xl lg:text-2xl xl:text-5xl font-bold text-center">Layanan Powder Coating</p>
-      <div className="flex items-center justify-center flex-col md:flex-row gap-5 mt-5">
+    <div id="pricelist" className="w-full flex flex-col p-5 items-center justify-center md:h-screen">
+      <CustomTitle title={"Layanan Powder Coating"}/>
+      {/* <div className="flex items-center xl:w-[1240px] justify-center flex-col md:flex-row gap-5 mt-5"> */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 mt-5 xl:mt-10 items-center justify-center">
         {priceList.map((price, index) => (
           <PricingCard key={index} title={price.title} services={price.services} />
         ))}

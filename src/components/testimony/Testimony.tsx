@@ -5,12 +5,14 @@ import { Autoplay,Pagination } from 'swiper/modules';
 import Image from 'next/image';
 import 'swiper/swiper-bundle.css';
 import 'swiper/css/pagination';
+import CustomTitle from '../common/CustomTitle';
 
 const Testimony: NextPage = ({}) => {
   return (
-    <div>
-      <div className='text-center text-4xl font-bold mb-10'>Apakah kata Konsumen?</div>
+    <div id='testimoni'>
+      <CustomTitle title={"Apakah kata Konsumen?"} />
       <Swiper 
+        className='mt-5'
         spaceBetween={50}
         centeredSlides={true}
         autoplay={{

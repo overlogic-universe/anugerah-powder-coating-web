@@ -1,15 +1,12 @@
-import { GalleryImageConstants } from '@/constants/GalleryImageConstants';
 import { NextPage } from 'next';
 import ServicesCard from './ServicesCard';
+import { ServiceImageConstants } from '@/constants/ServiceImageConstants';
+import CustomTitle from '../common/CustomTitle';
 
-interface Props { }
-
-const Service: NextPage<Props> = ({ }) => {
+const Service: NextPage = ({ }) => {
   return (
-    <div className="w-full flex-1 p-5 md:px-5 lg:px-20 xl:px-64 2xl:px-72 items-center justify-center md:h-screen">
-      <p className="md:text-xl lg:text-2xl xl:text-5xl font-bold text-center">
-        Apa yang kami tawarkan?
-      </p>
+    <div id='layanan' className="w-full flex h-full p-5 items-center flex-col">
+      <CustomTitle title={"Apa yang kami tawarkan?"} />
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 mt-5 xl:mt-10 items-center justify-center">
         {serviceList.map((service, index) => (
           <ServicesCard
@@ -26,17 +23,17 @@ const Service: NextPage<Props> = ({ }) => {
 
 export const serviceList = [
   {
-    images: GalleryImageConstants.image1,
+    images: ServiceImageConstants.image1,
     title: 'Vapor Blasting + Powder Coating',
     desc: 'Kombinasi kedua teknik ini memastikan permukaan sparepart anda menjadi bersih dan terlindungi dengan lapisan akhir berkualitas tinggi.',
   },
   {
-    images: GalleryImageConstants.image2,
+    images: ServiceImageConstants.image2,
     title: 'Vapor Blasting',
     desc: 'Membersihkan dan menghilangkan kotoran oksidasi dan pewarnaan tanpa menghilangkan logam atau mengurangi yang mendasarinya.',
   },
   {
-    images: GalleryImageConstants.image3,
+    images: ServiceImageConstants.image3,
     title: 'Powder Coating',
     desc: 'Teknik pewarnaan menggunakan bubuk warna khusus yang dipanaskan.',
   },

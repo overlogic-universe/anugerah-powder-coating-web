@@ -1,3 +1,4 @@
+import Compare from "@/components/compare/Compare";
 import Footer from "@/components/footer/Footer";
 import Gallery from "@/components/gallery/Gallery";
 import Home from "@/components/home/home";
@@ -7,14 +8,13 @@ import Service from "@/components/service/Service";
 import Testimony from "@/components/testimony/Testimony";
 import { NextPage } from "next";
 
-interface Props {}
-
-const Page: NextPage<Props> = ({}) => {
+const Page: NextPage = ({}) => {
   return (
     <>
       <Navbar />
       <Home />
       <Service />
+      <Compare />
       <Pricing />
       <Gallery />
       <Testimony />

@@ -18,7 +18,7 @@ const MapComponent = () => {
     const initializeLeaflet = async () => {
       const L = await import('leaflet');
 
-      delete L.Icon.Default.prototype._getIconUrl;
+      // delete L.Icon.Default.prototype._getIconUrl;
       L.Icon.Default.mergeOptions({
         iconRetinaUrl: 'https://unpkg.com/leaflet@1.7.1/dist/images/marker-icon-2x.png',
         iconUrl: 'https://unpkg.com/leaflet@1.7.1/dist/images/marker-icon.png',

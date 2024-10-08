@@ -23,7 +23,7 @@ const Footer:NextPage = ({}) => {
           <div className='w-full md:w-1/2'>
             <h3 className='text-lg font-semibold mb-3'>Temukan kami</h3>
             <MapComponent></MapComponent>
-            <p className='text-base mt-2'>Dekat Jl. KNPI 17, Kec. Blora, Kabupaten Blora, Jawa Tengah 58219, Kabupaten Blora, Jawa Tengah 58216 <a href='https://maps.app.goo.gl/6TnydRCDvsreXKhP8' target='_blank' className='text-blue-500 cursor-pointer underline'>Lihat lebih detail</a></p>
+            <p className='text-base mt-2'>Dekat Jl. KNPI 17, Kec. Blora, Kabupaten Blora, Jawa Tengah <a href='https://maps.app.goo.gl/6TnydRCDvsreXKhP8' target='_blank' className='text-blue-500 cursor-pointer underline'>Lihat lebih detail</a></p>
           </div>
         </div>
       </div>

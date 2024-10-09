@@ -15,10 +15,6 @@ const metadataConstant: Metadata = {
   abstract: "Anugerah Coating Powder Blora",
   publisher: "Overlogic Universe",
   openGraph: openGraphConstant,
-  icons: {
-    icon: "/images/logo/anugerah-logo.png",
-    apple: "/images/logo/anugerah-logo.png",
-  },
   metadataBase: new URL("https://anugerahpowdercoating.com"),
 };
 

@@ -36,7 +36,7 @@ const MapComponent = () => {
 
   return (
     <MapContainer
-      className="rounded-3xl !w-full"
+      className="rounded-3xl max-md:!w-full"
       center={[-6.964771050766204, 111.43800955050327]}
       zoom={13}
       style={{height: '200px', width: '90%', zIndex: 10 }}

@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const GalleryBox: NextPage = ({}) => {
   return (
-    <div className="xl:w-[1250px] lg:mx-0 sm:mx-3 mt-5 grid grid-cols-4 grid-rows-5 md:grid-cols-4 md:grid-rows-4 h-[675px] gap-5 shadow-gray-100 shadow-xl">
+    <div className="px-3 md:px-5 xl:px-10 2xl:px-0 w-full lg:mx-0 sm:mx-3 mt-5 grid grid-cols-4 grid-rows-5 md:grid-cols-4 md:grid-rows-4 h-[675px] gap-5 shadow-gray-100 shadow-xl">
       {/* SEO */}
       <div className="hidden">
         <p>Vapor Blasting Blora</p>

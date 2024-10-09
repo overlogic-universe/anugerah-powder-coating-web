@@ -69,8 +69,8 @@ const Navbar: NextPage = () => {
           <ul className="flex flex-col font-medium p-4 lg:p-0 mt-4 border rounded-lg lg:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
             {[
               "home",
-              "perbandingan",
               "layanan",
+              "perbandingan",
               "pricelist",
               "galeri",
               "testimoni",
@@ -119,8 +119,8 @@ const Navbar: NextPage = () => {
           <ul className="flex flex-col font-medium p-4">
             {[
               "home",
-              "perbandingan",
               "layanan",
+              "perbandingan",
               "pricelist",
               "galeri",
               "testimoni",

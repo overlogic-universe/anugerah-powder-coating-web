@@ -8,8 +8,8 @@ interface Props {
 
 const PricingCard: NextPage<Props> = ({ title, services }) => {
   return (
-    <div className="rounded-3xl p-2 w-full xl:w-[400px] border-black border border-opacity-10 shadow-gray-100 shadow-xl bg-white h-[500px]">
-      <div className="bg-[#E8EDFA] p-3 rounded-2xl h-full flex justify-between flex-col min-w-[250px] max-w-[400px] flex-1">
+    <div className="rounded-3xl p-2 w-full 2xl:w-[400px] border-black border border-opacity-10 shadow-gray-100 shadow-xl bg-white h-[500px]">
+      <div className="bg-[#E8EDFA] p-3 rounded-2xl h-full flex justify-between flex-col min-w-[250px] flex-1">
         <div>
           <p className="font-bold">{title}</p>
           <p className="text-sm text-muted-foreground">Mulai dari</p>

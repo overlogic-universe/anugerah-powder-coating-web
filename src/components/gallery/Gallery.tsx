@@ -4,9 +4,11 @@ import CustomTitle from "../common/CustomTitle";
 
 const Gallery: NextPage = ({}) => {
   return (
-    <div id="galeri" className="w-full flex flex-col p-5 items-center justify-center md:h-screen">
-      <CustomTitle title={"Galeri Anugerah Powder Coating"}/>
-      <GalleryBox />
+    <div className="w-full flex flex-col items-center justify-center">
+      <div id="galeri" className="md:w-full 2xl:w-[1250px]">
+        <CustomTitle title={"Galeri Anugerah Powder Coating"} />
+        <GalleryBox />
+      </div>
     </div>
   );
 };

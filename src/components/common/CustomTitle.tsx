@@ -6,7 +6,7 @@ interface Props {
 
 const CustomTitle: NextPage<Props> = ({ title }) => {
   return (
-    <div>
+    <div className="my-14">
       <p className="md:text-xl lg:text-2xl xl:text-5xl font-bold text-center">
         {title}
       </p>

@@ -4,7 +4,7 @@
 
 const openGraphConstant = {
   type: "website",
-  url: "http://anugerahpowdercoating.com/",
+  url: "https://anugerahpowdercoating.com",
   title: "Anugerah Coating Powder Blora",
   description:
     "Layanan coating terbaik dengan kualitas tinggi untuk melindungi dan mempercantik berbagai produk logam anda. Hubungi kami untuk informasi lebih lanjut dan penawaran spesial",

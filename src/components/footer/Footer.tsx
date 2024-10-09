@@ -6,9 +6,9 @@ import Image from 'next/image';
 const Footer:NextPage = ({}) => {
   return (
     <div className='bg-[#111111] text-white flex items-center justify-center flex-col'>
-      <div className='py-8 md:px-10 xl:px-0 w-full px-10'>
+      <div className='py-8 md:px-10 xl:px-0 w-full'>
         <div className='container mx-auto flex flex-col md:flex-row justify-between items-start md:px-0'>
-          <div className='md:w-1/2 mb-8 mx-10 xl:mb-0'>
+          <div className='md:w-1/2 mb-8 xl:mx-10 xl:mb-0'>
             <Image src="/images/logo/anugerah-logo.png" alt="Logo" className='object-contain w-32' height={800} width={800}/>
             <p className='mt-1 text-sm sm:w-96 font-semibold italic'>Layanan coating terbaik dengan kualitas tinggi untuk melindungi dan mempercantik berbagai produk logam anda. Hubungi kami untuk informasi lebih lanjut dan penawaran spesial</p>
             <div className='flex space-x-4 mt-4'>

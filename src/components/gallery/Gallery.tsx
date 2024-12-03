@@ -1,9 +1,16 @@
-import { NextPage } from 'next'
+import { NextPage } from "next";
+import GalleryBox from "./GalleryBox";
+import CustomTitle from "../common/CustomTitle";
 
-interface Props {}
+const Gallery: NextPage = ({}) => {
+  return (
+    <div className="w-full flex flex-col items-center justify-center">
+      <div id="galeri" className="md:w-full 2xl:w-[1250px]">
+        <CustomTitle title={"Galeri Anugerah Powder Coating"} />
+        <GalleryBox />
+      </div>
+    </div>
+  );
+};
 
-const Gallery: NextPage<Props> = ({}) => {
-  return <div>Galeri Anugerah Powder Coating</div>
-}
-
-export default Gallery
+export default Gallery;

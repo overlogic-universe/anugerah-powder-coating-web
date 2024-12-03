@@ -2,102 +2,91 @@
 import React from "react";
 import { HeroParallax } from "../ui/hero-parallax";
 import { HeaderImageConstants } from "@/constants/HeaderImageConstants";
- 
+
 export default function Home() {
-  return <HeroParallax products={products} />;
+  return (
+    <div id="home">
+      <HeroParallax products={products} />;
+    </div>
+  );
 }
 export const products = [
   {
-    title: "Moonbeam",
+    title: "Yamaha Vapor Blasting + Coating Powder",
     link: "#",
-    thumbnail:
-    HeaderImageConstants.image1
+    thumbnail: HeaderImageConstants.image1,
   },
   {
-    title: "Cursor",
+    title: "RX King Vapor Blasting + Coating Powder",
     link: "#",
-    thumbnail:
-    HeaderImageConstants.image1
+    thumbnail: HeaderImageConstants.image2,
   },
   {
-    title: "Rogue",
+    title: "Coating Blue Texture Mesin Supra",
     link: "#",
-    thumbnail:
-    HeaderImageConstants.image1
+    thumbnail: HeaderImageConstants.image3,
   },
-  
+
   {
-    title: "Editorially",
+    title: "Vapor Blasting Powder Coating Brown Texture Beige Mesin CBR",
     link: "#",
-    thumbnail:
-    HeaderImageConstants.image1
+    thumbnail: HeaderImageConstants.image4,
   },
   {
-    title: "Editrix AI",
+    title: "Vapor Blasting Powder Coating Mesin Tiger",
     link: "#",
-    thumbnail:
-    HeaderImageConstants.image1
+    thumbnail: HeaderImageConstants.image5,
   },
   {
-    title: "Pixel Perfect",
+    title: "Vapor Blasting Powder Coating Mesin TDR",
     link: "#",
-    thumbnail:
-    HeaderImageConstants.image1
+    thumbnail: HeaderImageConstants.image6,
   },
-  
+
   {
-    title: "Algochurn",
+    title: "Vapor Blasting dan Coating Powder Texture Abu Abu",
     link: "#",
-    thumbnail:
-    HeaderImageConstants.image1
+    thumbnail: HeaderImageConstants.image8,
   },
   {
-    title: "Aceternity UI",
+    title: "Powder Coating",
     link: "#",
-    thumbnail:
-    HeaderImageConstants.image1
+    thumbnail: HeaderImageConstants.image7,
   },
   {
-    title: "Tailwind Master Kit",
+    title: "Powder Coating Hitam",
     link: "#",
-    thumbnail:
-    HeaderImageConstants.image1
+    thumbnail: HeaderImageConstants.image9,
   },
   {
-    title: "SmartBridge",
+    title: "Powder Coating",
     link: "#",
-    thumbnail:
-    HeaderImageConstants.image1
+    thumbnail: HeaderImageConstants.image10,
   },
   {
-    title: "Renderwork Studio",
+    title: "Vapor Blasting",
     link: "#",
-    thumbnail:
-    HeaderImageConstants.image1
+    thumbnail: HeaderImageConstants.image11,
   },
-  
+
   {
-    title: "Creme Digital",
+    title: "Powder Coating Hitam",
     link: "#",
-    thumbnail:
-    HeaderImageConstants.image1
+    thumbnail: HeaderImageConstants.image12,
   },
   {
-    title: "Golden Bells Academy",
+    title: "Powder Coating Kawasaki",
     link: "#",
-    thumbnail:
-    HeaderImageConstants.image1
+    thumbnail: HeaderImageConstants.image13,
   },
   {
-    title: "Invoker Labs",
+    title: "Powder Coating Kawasaki",
     link: "#",
-    thumbnail:
-    HeaderImageConstants.image1
+    thumbnail: HeaderImageConstants.image14,
   },
   {
-    title: "E Free Invoice",
+    title: "Powder Coating Yamaha",
     link: "#",
-    thumbnail:
-    HeaderImageConstants.image1
+    thumbnail: HeaderImageConstants.image15,
   },
 ];

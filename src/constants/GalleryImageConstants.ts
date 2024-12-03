@@ -1,8 +1,8 @@
 // This is used to store image location constants throughout the application.
 
-// located at /public/images
-import image1 from "/images/header/images-1.jpg";
-
 export const GalleryImageConstants = {
-    image1,
+    image1: "/images/gallery/image-1.avif",
+    image2: "/images/gallery/image-2.avif",
+    image3: "/images/gallery/image-3.avif",
+    image4: "/images/gallery/image-4.avif",
 }
